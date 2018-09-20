@@ -10,8 +10,9 @@ var deserializer = builder
     .WithTypeInspector(inspector => new DataContractTypeInspector(inspector) {
         DataMemberSerialization = DataMemberSerialization.OptIn,
         // Since custom type inspectors are added after the built-in ones, they cannot pass their results
-        // to the built-in ones, e.g. NamingConventionTypeInspector (responsible for the WithNamingConveition method).
-        // The naming convention must be assigned here, if there is one.
+        // to the built-in ones, e.g. NamingConventionTypeInspector (responsible for the WithNamingConvention
+        // method).
+        // The naming convention must be assigned here if there is one, not using WithNamingConvention().
         NamingConvention = new UnderscoredNamingConvention(),
         CacheResults = true, // default
         IncludeNonPublicMembers = false // default
