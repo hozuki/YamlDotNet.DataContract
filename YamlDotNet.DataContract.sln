@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlDotNet.DataContract", "YamlDotNet.DataContract\YamlDotNet.DataContract.csproj", "{3D20BFC7-16E4-4BC1-9812-48FD42A1056D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YamlDotNet.DataContract.Tests", "YamlDotNet.DataContract.Tests\YamlDotNet.DataContract.Tests.csproj", "{DCD95092-7EA0-4F3F-8C96-94C6B534D680}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D20BFC7-16E4-4BC1-9812-48FD42A1056D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D20BFC7-16E4-4BC1-9812-48FD42A1056D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D20BFC7-16E4-4BC1-9812-48FD42A1056D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D20BFC7-16E4-4BC1-9812-48FD42A1056D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD95092-7EA0-4F3F-8C96-94C6B534D680}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD95092-7EA0-4F3F-8C96-94C6B534D680}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD95092-7EA0-4F3F-8C96-94C6B534D680}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD95092-7EA0-4F3F-8C96-94C6B534D680}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1EBAFB90-2ACB-4919-8CA0-33A77A6DF9D3}
+	EndGlobalSection
+EndGlobal
